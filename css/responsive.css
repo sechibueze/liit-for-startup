@@ -1,0 +1,112 @@
+
+@media (max-width: 640px){
+  body{
+    background-color: transparent;
+  }
+  /* Nav Social Icon */
+  span#nav-social-icon{
+    display: block;
+    float: none;
+    margin: auto;
+    text-align: center;
+  }
+  #nav-social-icon .nav-phone-icon, #nav-social-icon .nav-envelope-icon {
+    display: block;
+    padding: 2px 5px;
+    margin: 4px auto;
+  }
+  /* Hide Navlinks */
+  .navbarlinks{
+    display: none;
+  }
+
+  /* Expand Logo Wrapper to fullwidth */
+  div.logo-wrapper{
+    float: none;
+    display: block;
+  }
+  /* And logo inline */
+  .logo{
+    display: inline;
+  }
+  /* Menu Icon goes right end */
+  span.hamburger{
+    display: block;
+    float: right;
+    
+  }
+
+  /* When MENu is click, .toggle is added to .navlinks via JS */
+  .navbarlinks.toggle {
+    display: block;
+    float: none;
+    text-align: center;
+    padding: 10px 0px;
+  }
+
+ 
+  .navbarlinks.toggle a{
+    display: block;
+    float: none;
+    padding: 8px 15px;
+    margin: 10px auto;
+  }
+
+  .control .gs-control{
+    display: block;
+    margin: 12px auto;
+    width: 80%;
+  }
+
+}
+
+@media (max-width: 720px) {
+  
+  .slide-text .slide-title{
+    font-size: 2.2rem;
+  }
+
+  div.slide-text {
+    max-width: 100%;
+  }
+  /* Service */
+  #services div.wrapper{
+    display: block;
+    grid-template-columns: auto;
+    width: 80%;
+}
+}
+@media (max-width: 880px){
+  body{
+    background: #ddd;
+  }
+  #about div.wrapper{
+    display: block;
+  }
+  div.about-image{
+    margin-top: 25px;
+  }
+
+  /* Service */
+  #services div.wrapper{
+    display: block;
+   grid-template-columns: auto;
+   width: 70%;
+  }
+  .service{
+    margin-bottom: 12px;
+  }
+
+  /* Contact */
+  #contact div.wrapper{
+    display: block;
+   grid-template-columns: auto;
+   /* width: 70%; */
+   margin: auto;
+  }
+
+  /* gs-modal */
+  .gs-modal-content form.gs-form{
+    display: block;
+  }
+}
